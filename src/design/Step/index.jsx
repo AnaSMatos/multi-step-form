@@ -1,8 +1,8 @@
 import { StepStyle } from "./styles";
 
-export default function Step ({ step, title }) {
+export default function Step ({ step, title, selected }) {
     return (
-        <StepStyle>
+        <StepStyle selected={selected}>
             <div className="step-main-number">
                 <p>{step}</p>
             </div>

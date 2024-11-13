@@ -8,11 +8,15 @@ export const StepStyle = styled.div`
         border: 1px solid var(--font-white);
         border-radius: 50%;
         color: var(--font-white);
+        color: ${({ selected }) => selected ? 'var(--font-primary)' : 'var(--font-white)' };
+        font-weight: bold;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 40px;
         height: 40px;
+        background-color: ${({ selected }) => selected ? 'var(--step-background)' : 'transparent'};
     }
     .step-info {
         color: var(--font-white);
