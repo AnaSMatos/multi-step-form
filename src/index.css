@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #EEF5FF;
+  --font-primary: #0D2B51;
+  --font-muted: #B9B8BD;
+  --font-white: #FFFFFF;
+  --alert: #D86479;
+  --button: #174A8B;
+  --step-background: #C1E2FF;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./assets/fonts/Ubuntu-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--primary-color);
+}
