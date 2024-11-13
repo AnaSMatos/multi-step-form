@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
-export const InputStyle = styled.input`
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+export const InputStyle = styled.div`
+    input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 16px;
+        color: var(--font-primary);
+    }
 `;
