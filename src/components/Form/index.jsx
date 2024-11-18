@@ -4,6 +4,8 @@ import PersonalInfo from "../PersonalInfo";
 import SelectPlan from "../SelectPlan";
 import AddOns from "../AddOns";
 import Summary from "../Summary";
+import Footer from "../Footer";
+
 import { useState } from "react";
 
 export default function Form () {
@@ -26,6 +28,7 @@ export default function Form () {
                 <Track selectedStep={selectedStep}/>
                 <div className="form-section">
                     {getFormSection()}
+                    <Footer step={selectedStep} onChangeStep={handleChangeStep}/>
                 </div>
             </div>
         </FormStyle>
