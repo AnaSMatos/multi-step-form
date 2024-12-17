@@ -9,7 +9,7 @@ export const FormStyle = styled.div`
     background-color: var(--primary-color);
     .form-container {
         display: flex;
-        gap: 60px;
+        gap: 100px;
         padding: 20px;
         background-color: var(--font-white);
         width: 1000px;
@@ -18,6 +18,8 @@ export const FormStyle = styled.div`
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
     .form-section {
-        padding: 30px;
+        position: relative;
+        width: 50%;
+        padding: 20px 0;
     }
 `;

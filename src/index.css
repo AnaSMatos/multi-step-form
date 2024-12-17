@@ -1,15 +1,17 @@
 :root {
   --primary-color: #EEF5FF;
-  --font-primary: #0D2B51;
+  --font-primary: #113c74;
   --font-muted: #a5a5a5;
   --font-extra-muted: rgba(219, 219, 219, 0.8);
   --font-white: #FFFFFF;
   --alert: #D86479;
   --button: #174A8B;
   --step-background: #C1E2FF;
+  --light-blue-background: #f9f9ff;
 }
 
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: var(--primary-color);
+  letter-spacing: -0.3px;
 }
