@@ -8,7 +8,7 @@ const CustomSwitchStyle = styled(Switch)(({ theme }) => ({
   padding: 7,
   "& .MuiSwitch-switchBase": {
     paddingTop: 11,
-    paddingLeft: 11,
+    paddingLeft: 12,
     "&.Mui-checked": {
       transform: "translateX(17px)",
       color: "#fff",
